@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import '../../Pages/maincontent/style.css'
-import { AddToCart, Billcount } from '../../Redux/Action/Action'
+import { AddToCart, Billcount } from '../../redux/Action/Action'
 import { useDispatch, useSelector } from 'react-redux'
 import './style.css'
 
