@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: local('Gilroy-Light'), url(../../assets/Fonts/Gilroy/Gilroy-Light.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: local('Gilroy-ExtraBold'), url(../../assets/Fonts/Gilroy/Gilroy-ExtraBold.otf) format('truetype');
+}
+
+* {
+    font-family: 'Gilroy-Light';
+    cursor: default;
+}
+
+
+body {
+    font-family: 'Gilroy-Light';
+    margin: 0;
+    padding: 0;
+}
+
+.resto-app::-webkit-scrollbar {
+    display: none;
+}
+
+.resto-container {
+    font-family: 'Gilroy-Light';
+    background-color: #fed353;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer;
+}
+
+.resto-app {
+    width: 300px;
+    height: 550px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 0 0px 0 0px;
+    position: relative;
+  
+}
+
+@media(max-width:450px) {
+    .resto-app {
+        width: 100%;
+        height:  100%;
+        border: 2px solid black;
+        background-color: white;
+        padding: 0 0px 0 0px;
+        position: relative;
+      
+    }
+}
+
+.resto-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    overflow: auto;
+}
+
+.resto-menu-btn-1 {
+    font-family: 'Gilroy-ExtraBold';
+    background: white;
+    text-transform: uppercase;
+    border-radius: 13px;
+    margin: 5px 0px 5px 10px;
+    padding: 5px 15px 5px 15px;
+    border: 3px solid #fcd404;
+}
+
+.resto-btn-ative {
+    font-family: 'Gilroy-ExtraBold';
+    background: #ffd504;
+    text-transform: uppercase;
+    border-radius: 13px;
+    margin: 5px 0px 5px 10px;
+    padding: 5px 15px 5px 15px;
+    border: 3px solid #fcd404;
+}
+
+
+
+.resto-category {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    overflow: auto;
+    width: 90%;
+}
+
+.resto-category::-webkit-scrollbar{
+    display: none;
+  } 
+
+.resto-menu-btn-2 {
+    font-family: 'Gilroy-ExtraBold';
+    background: white;
+    font-size: .9em;
+    padding: 5px 0 5px 0;
+    margin: 5px 0 10px 10px;
+    border: 3px solid white;
+}
+
+.resto-btn-active-2 {
+    font-family: 'Gilroy-ExtraBold';
+    background: white;
+    font-size: .9em;
+    padding: 5px 0 5px 0;
+    margin: 5px 0 10px 10px;
+    border-bottom: 3px solid #fcd404;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-radius: 5.5px;
+}
+
+
+.menu-items {
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px 5px 10px;
+    padding: 7px 10px 7px 10px;
+    border: 3px solid #fcd404;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.menu-items-info {
+    font-family: 'Gilroy-Light';
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    padding: 5px 0;
+    line-height: 19px;
+}
+
+.menu-items-title {
+    font-family: 'Gilroy-ExtraBold';
+    font-size: .9rem;
+}
+
+.menu-items-detail {
+    font-family: 'Gilroy-Light';
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .8em;
+    line-height: 15px;
+}
+
+
+.item-prize {
+    font-family: 'Gilroy-ExtraBold';
+    font-size: 1.2rem;
+}
+
+
+.order-item {
+    font-family: 'Gilroy-ExtraBold';
+    position: absolute;
+    bottom: 0;
+    background: #fcd304;
+    width: 100%;
+    height: 8vh;
+    margin: 0 auto;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: .9em;
+}
+
+ .order-item-title{ 
+    font-family: 'Gilroy-ExtraBold';
+    font-weight: 600;
+    
+}
+
+.order-item-prize{
+    font-family: 'Gilroy-ExtraBold';
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 450px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main_container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .app {
+        width: 100vw;
+        height: 100vh;
+    }
+
+}

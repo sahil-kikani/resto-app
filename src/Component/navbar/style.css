@@ -1,0 +1,44 @@
+.checkout-inner-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 20px 7px 10px;
+}
+
+.checkout-back-btn {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.heading {
+    font-family: 'Gilroy-ExtraBold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+
+.menu {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+.title {
+    font-family: 'Gilroy-ExtraBold';
+    font-size: .8rem;
+    margin: 0px 20px 5px 20px;
+}
+
+.address {
+    font-family: 'Gilroy-Light';
+    font-size: .7rem;
+    margin: 1px 20px 0 20px;
+}

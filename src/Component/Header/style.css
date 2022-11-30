@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: local('Gilroy-Light'), url(../../assets/Fonts/Gilroy/Gilroy-Light.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: local('Gilroy-ExtraBold'), url(../../assets/Fonts/Gilroy/Gilroy-ExtraBold.otf) format('truetype');
+}
+
+.resto-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh 0 5vh 0;
+}
+
+.resto-title {
+    font-family: 'Gilroy-ExtraBold';
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.resto-address {
+    font-family: 'Gilroy-Light';
+    text-align: center;
+    font-weight: lighter;
+    font-size: 12px;
+}

@@ -1,0 +1,85 @@
+.division {
+    height: 3px;
+    margin: 0 10px 0 10px;
+    background: lightgrey;
+}
+
+.notes {
+    margin: 10px 15px 10px 15px;
+}
+
+.notes-title {
+    font-family: 'Gilroy-ExtraBold';
+}
+
+.note {
+    border: 3px solid #fcd404;
+    border-radius: 10px;
+    width: 90%;
+    height: 85px;
+    margin: 10px;
+    
+    
+}
+
+
+.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.Table_number_title {
+    font-family: 'Gilroy-ExtraBold';
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+.table_number {
+    font-family: 'Gilroy-ExtraBold';
+    border: 3px solid #fcd404;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.8em;
+    margin-right: 10px;
+}
+
+
+.Confirm_order {
+    
+    background: #fcd404;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: .9em;
+    cursor: pointer;
+}
+
+
+.Confirm-order-title {
+    font-family: 'Gilroy-ExtraBold';
+    text-transform: uppercase;
+}
+
+.Confirm-order-prize{
+    font-family: 'Gilroy-ExtraBold';
+}
+
+/* .main_confirm_order {
+    
+    background-color: white;
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+} */

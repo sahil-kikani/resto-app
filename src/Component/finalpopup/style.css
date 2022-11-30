@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: local('Gilroy-Light'), url(../../assets/Fonts/Gilroy/Gilroy-Light.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: local('Gilroy-ExtraBold'), url(../../assets/Fonts/Gilroy/Gilroy-ExtraBold.otf) format('truetype');
+}
+
+
+.final-popup{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    flex-direction: column;
+    padding: 10px;
+    width: 85%;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    z-index: 1111;
+    border-radius: 15px;
+    bottom: 120%;
+    box-shadow: 0 0 10px gray;
+  
+}
+
+.final-page-overlay {
+    position: absolute;
+    bottom: 0px;
+    margin: 0 auto;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.500);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img{
+    height: 7rem;
+    width: 14rem;
+}
+
+.final-popup-title{
+    font-family: 'Gilroy-ExtraBold';
+}
+
+.final-popup-description{
+    font-family: 'Gilroy-ExtraBold';
+    text-align: center;   
+}
+
+.cancel-btn{
+    background-color: white;
+    border: 3px solid #ffd504;
+    font-family: 'Gilroy-ExtraBold';
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin: 5px;
+}
+
+.order-btn{
+    background-color: #ffd504;
+    border: 3px solid #ffd504;
+    font-family: 'Gilroy-ExtraBold';
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin: 5px;
+}
