@@ -5,7 +5,7 @@ import PopUp from '../../Component/popup-box'
 import { useNavigate } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 import axios from 'axios'
-import { getCategory, getproduct } from '../../Redux/Action/Action'
+import { getCategory, getproduct } from '../../redux/Action/Action'
 
 function Restoapp () {
   const naviagte = useNavigate()
